@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+transformers = "==4.8.0"
+nltk = "==3.5"
+protobuf = "==3.15.3"
+torch = "==2.0.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
